@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  margin-top:15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align:center;
+}
+
+h1{
+  font-size: 3em;
+}
+#delivery{
+  font-style:italic;
+}
+p{
+  font-size:28px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
